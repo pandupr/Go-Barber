@@ -1,0 +1,191 @@
+body{
+  background-color: rgb(233, 182, 16);
+}
+
+img.logo_barber{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
+
+a.chat_barber {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 8px 8px;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Georgia;
+    color:black;
+    text-transform: uppercase;
+    transition: all 0.8s ease;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 140px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+a.chat_barber:hover {
+  background: black;
+  color: white;
+}
+
+a.feedback_barber {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 8px 8px;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Georgia;
+    color:black;
+    text-transform: uppercase;
+    transition: all 0.8s ease;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 140px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+a.feedback_barber:hover {
+  background: black;
+  color: white;
+}
+
+section {
+  padding: 60px 0;
+}
+
+.section-bg {
+  background-color: white;
+}
+
+.section-title {
+  text-align: center;
+  padding: 30px 0;
+  position: relative;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  color: #3b434a;
+  position: relative;
+  z-index: 2;
+  margin-top: 70px;
+}
+
+.section-title span {
+  position: absolute;
+  margin-top: 50px;
+  top: 30px;
+  color: #eef0f2;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  font-weight: 700;
+  font-size: 52px;
+  text-transform: uppercase;
+  line-height: 0;
+}
+
+.section-title p {
+  margin-bottom: 0;
+  position: relative;
+  z-index: 2;
+}
+
+@media (max-width: 575px) {
+  .section-title h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  .section-title span {
+    font-size: 38px;
+  }
+}
+
+
+
+
+
+.about .content h3 {
+  font-weight: 700;
+  font-size: 26px;
+  color: #3b434a;
+  text-transform: uppercase;
+}
+
+.about .content p {
+  margin-bottom: 0;
+}
+
+.about .content ul {
+  list-style: square;
+  list-style-position: inside;
+  margin-left: 725px;
+  margin-top: 20px;
+}
+
+.about .content ul li {
+  padding-bottom: 10px;
+}
+
+.about .content ul i {
+  font-size: 20px;
+  padding-right: 2px;
+  color: #ffb727;
+}
+
+.about .content .count-box {
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+}
+
+.about .content .count-box i {
+  display: block;
+  font-size: 36px;
+  color: #ffb727;
+  float: left;
+}
+
+.about .content .count-box span {
+  font-size: 24px;
+  line-height: 30px;
+  display: block;
+  font-weight: 700;
+  color: #3b434a;
+  margin-left: 770px;
+}
+
+.about .content .count-box p {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  color: #5d6a75;
+  margin-left: 40px;
+
+}
+
+
+.about .image {
+  background: url("../assets/ahmad.png") center center no-repeat;
+  width: 400px;
+  min-height: 300px;
+  margin-left: 240px;
+  float: left;
+  transition: 0.5s;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Go-Barber Sign Up</title>
+	<link rel="stylesheet" type="text/css" href="signUp.css">
+	<meta charset="utf-8">
+
+</head>
+<body>
+	<!-- <form action="#" method="POST" onSubmit="validasi()">
+	<form action="#" method="POST" onSubmit="validasiPassword()"> -->
+	
+	
+
+	<div class="SignUplogo">
+			<a href="Homepage.html"><img class="logoSignUp" src="../assets/logo2.png" height="auto" width="300px"></a>
+
+	</div>
+
+	<div class="kotakSignUp">
+		<p class="tulisanSignUp">Sign Up</p>
+
+		<form action="connect.php" method="POST">
+				<label>Full Name</label>
+				<input type="text" name="FullName" id="FullName" class="form_signUp" placeholder="Full Name" required>
+
+				<label>Gender: </label><br>
+				<input type="radio" name="gender" id="gender" value="M" required> Male
+				<input type="radio" name="gender" id="gender" value="F" required> Female
+				<br><br>
+
+				<label>Username</label>
+				<input type="text" name="username" id="username" class="form_signUp" placeholder="Username" required>
+	 
+				<label>Email</label>
+				<input type="text" name="email" id="email" class="form_signUp" placeholder="Email" required>
+				
+
+				<label>Password</label>
+				<input type="password" name="password" id="password" class="form_signUp" placeholder="Password" required>
+
+
+				<label>Confirm Password</label>
+				<input type="password" name="confirm_password" id="confirm_password" class="form_signUp" placeholder="Confirm Password" required>
+	
+
+				<input type="submit" name="submit" value="submit">
+	 	<br><br> 		
+	 	</form>
+
+	
+
+	    <span class="login">Have an account? <a href="login.html">Log in</a>
+		</span>
+
+	</div>
+
+	
+		
+	
+
+
+
+
+	<script type="text/javascript">
+		function validasi() {
+			
+			var username = document.getElementById("username").value;
+			var email = document.getElementById("email").value;
+			 var password = document.getElementById("password").value;
+			 var confirm_password = document.getElementById("confirm_password").value;
+		
+
+			if(password != confirm_password){
+				alert('Password and Confirm Password are not match!\n'); 
+				return false;
+			}
+			return true;
+
+		}
+		
+	</script>
+
+		
+			
+		
+		
+
+
+	
+
+
+
+
+
+	
+
+</body>
+</html>

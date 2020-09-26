@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link rel="stylesheet" href="testappointment.css">
+</head>
+<body>
+    <div class="bookingappointment">
+        <div class="selectdate">
+            <h2>Select Appointment Date:</h2>
+            <input type="date" id="pickedDate">
+            <button type="button" class="selDate">Pick Date</button>
+            <div class="schedule">
+                <ul class="schedulelist">
+                    <li><div class="shift">
+                            <span class="timeslot">10:00 AM - 12:00 PM</span><span class="slotavl">Available</span><br>
+                            <button type="button" class="linkbook" onclick="window.location.href='dataBarber.html'">Book Appointment</button>
+                        </div>
+                    </li>
+                    <li><div class="shift">
+                            <span class="timeslot">12:00 PM - 02:00 PM</span><span class="slotavl">Available</span><br>
+                            <button type="button" class="linkbook" onclick="window.location.href='#'">Book Appointment</button>
+                        </div>
+                    </li>
+                    <li><div class="shift">
+                            <span class="timeslot">02:00 PM - 04:00 PM</span><span class="slotavl">Available</span><br>
+                            <button type="button" class="linkbook" onclick="window.location.href='#'">Book Appointment</button>
+                        </div>
+                    </li>
+                    <li><div class="shift">
+                            <span class="timeslot">04:00 PM - 06:00 PM</span><span class="slotavl">Available</span><br>
+                            <button type="button" class="linkbook" onclick="window.location.href='#'">Book Appointment</button>
+                        </div>
+                    </li>
+                    <li><div class="shift">
+                            <span class="timeslot">06:00 PM - 08:00 PM</span><span class="slotavl">Available</span><br>
+                            <button type="button" class="linkbook" onclick="window.location.href='#'">Book Appointment</button>
+                        </div>
+                    </li>
+                    <li><div class="shift">
+                            <span class="timeslot">08:00 PM - 10:00 PM</span><span class="slotavl">Available</span><br>
+                            <button type="button" class="linkbook" onclick="window.location.href='#'">Book Appointment</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        var coll = document.getElementsByClassName("selDate");
+        var i;
+        for (i = 0; i < 1; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var schedule = this.nextElementSibling;
+            schedule.style.display = "block";
+          });
+          
+        }
+        
+    </script>
+</body>
+</html>

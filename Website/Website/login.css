@@ -1,0 +1,96 @@
+body{
+	background-image: url("../assets/background3.png");	
+}
+
+
+label{
+	font-size: 14pt;
+	font-family: Georgia;
+}
+
+img.logoLogin{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 150px;
+	margin-bottom: 80px;
+}
+
+.kotakLogin{
+	width: 500px;
+	background: white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 150px;
+	padding: 30px 20px;
+
+
+}
+
+.tulisanLogin{
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Georgia;
+	font-size: 20px;
+}
+
+.form_login{
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 12pt;
+	margin-bottom: 20px;
+}
+ 
+
+span.password {
+  float: right;
+  padding-top: 16px;
+  font-size: 16px;
+  font-family: Georgia;
+}
+
+button {
+	background: black;
+	color: white;
+	font-size: 12pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+	font-family: Georgia;
+}
+
+button:hover{
+	opacity: 0.5;
+}
+
+.link{
+	  width: 100px;
+	  padding: 10px 18px;
+	  background-color: #f44336;
+	  color: white;
+	  text-decoration: none;
+}
+
+.menujuSignUp{
+	color: black;
+    font-family: Georgia;
+    font-size: 12pt;
+	text-decoration: none;        
+	text-align: center;
+	margin-left: 155px;
+}
+
+.link:hover{
+	opacity: 0.8;
+	color: white;
+}
+
+a:hover{
+	color: blue;
+}
+
+
+
+

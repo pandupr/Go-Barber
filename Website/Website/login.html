@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Go-Barber! Login</title>
+	<link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+	<form action="#" method="get" id="myForm" onsubmit=" return validasi()">
+	
+		<div class="Loginlogo">
+			<a href="Homepage.html"><img class="logoLogin" src="../assets/logo2.png" height="auto" width="300px"></a>
+
+		</div>
+
+		<div class="kotakLogin">
+			<p class="tulisanLogin">Login</p>
+ 
+			<form>
+				<label>Username</label>
+				<input type="text" name="username" class="form_login" placeholder="Username or email..." required>
+	 
+				<label>Password</label>
+				<input type="password" name="password" class="form_login" placeholder="Password..." required>
+	 		</form>	
+
+	 		<div class="container">
+				<button type="submit">Login</button>
+
+				<span class="password">Forgot <a href="forgotpw.html"> Your Password?</a>
+				</span>
+				
+				<label>
+	      		<input type="checkbox" checked="checked" name="remember"> Remember me
+	    		</label>
+	    		<br>
+	    		<br>
+	    		
+
+	    		<a class="link" href="Homepage.html">Cancel</a> 
+	    		<br><br><br>
+
+	    		<a class="menujuSignUp" href="signUp.html">Don't have an account yet?</a>
+
+	    		
+			</div>
+
+		</div>
+
+	
+			
+
+<script type="text/javascript">
+  function validasi(){
+    var username = document.forms["myForm"]["username"].value;
+    var password = document.forms["myForm"]["password"].value;
+    if( username == "user" && password == "Qwerty123"){
+      return true;
+    }
+    else if(username =="" || password ==""){
+      alert("Masukan username dan password Anda");
+      return false;
+    }
+    else{
+      alert("Username atau password yang Anda masukan SALAH");
+      return false;
+    }
+  }
+</script>
+
+
+	
+</body>
+</html>
